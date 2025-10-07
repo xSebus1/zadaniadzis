@@ -1,0 +1,89 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+display: flex;
+background-color: aliceblue;
+width: 100vh;
+height: 100v;
+flex-direction: column;
+gap: 10px;
+}
+
+.rodzic {
+display: flex;
+width: 90%;
+height: 250px;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+}
+
+.div {
+width: 170px;
+height: 120px;
+background-color: yellow;
+}
+
+.rodzic1 {
+display: flex;
+flex-direction: row;
+width: 90%;
+height: 200px;
+background-color: yellow;
+justify-content: center;
+align-items: center;
+}
+
+.blok1 {
+width: 28%;
+height: 130px;
+background-color: aliceblue;
+}
+
+.rodzic2 {
+display: flex;
+flex-direction: row-reverse;
+width: 100%;
+height: 150px;
+background-color: black;
+align-items: center;
+padding: 0 20px;
+}
+
+.blok2 {
+width: 100px;
+height: 100px;
+background-color: aliceblue;
+}
+
+.rodzic3 {
+display: flex;
+flex-direction: row;
+width: 1000px;
+height: 500px;
+}
+
+.lewo {
+width: 50%;
+height: 1000px;
+}
+
+.rodzic4 {
+width: 300px;
+height: 500px;
+background-color: gold;
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-content: space-around;
+}
+
+.blok3 {
+height: 100px;
+width: 100px;
+background-color: aliceblue;
+align-self: center;
+}
